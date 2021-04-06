@@ -1,0 +1,9 @@
+body html {
+    background-color: $color2;
+    font-family: $base-font;
+    color: $color4;
+}
+
+::selection {
+    background: $color3;
+}

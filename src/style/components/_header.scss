@@ -1,0 +1,20 @@
+.header {
+    color: $color4;
+    height: 250px;
+    background-color: $color1;
+
+    &__logo {
+        height: 100px;
+    }
+    
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: $color4;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: $color3;
+    text-shadow: $link-shadow;
+}
+

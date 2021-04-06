@@ -1,0 +1,44 @@
+.articles {
+
+    background-color: $color4;
+    color: $color1;
+
+    &__container {
+        padding-top: $gutter-large;
+        padding-bottom: $gutter-large;
+    }
+
+    &__title {
+        font-family: $styled-font;
+        padding-top: $gutter-base;
+        padding-bottom: $gutter-base;
+    }
+
+    &__picture {
+        width: 100%;
+    }
+
+    &__content {
+        text-align: justify;
+        margin-top: $gutter-base;
+    }
+
+    &__share {
+        font-family: $styled-font;
+        padding-top: $gutter-base;
+        padding-bottom: $gutter-base;
+
+        &__icons {
+            margin: $gutter-base;
+        }
+
+        &__icons a {
+            color: $color1;
+        }
+
+        &__icons a:hover {
+            color: $color3;
+        }
+    }
+
+}

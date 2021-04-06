@@ -1,0 +1,33 @@
+.footer {
+
+    background-color: $color1; 
+
+    color: white;
+    font-family: $base-font;
+    font-size: $font-small-size;
+
+    
+
+    &__container {
+        padding-top: $gutter-large;
+        padding-bottom: $gutter-large;
+    }
+
+    &__logo {
+        height: 50px;
+        filter: grayscale(100%);
+        margin-bottom: $gutter-base;
+    }
+    
+    &__subtitle {
+        font-weight: normal;
+        font-family: $styled-font;
+    }
+
+    &__copyright {
+        background-color: $color2; 
+        padding-top: $gutter-base;
+        padding-bottom: $gutter-base;
+    }
+
+}
